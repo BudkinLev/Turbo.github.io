@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Unica+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style_us.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      
+      <nav class="nav">
+        <a href="tel:389902221111" class="phone">+38 990-222-11-11</a>
+        <a class="logo">
+          <img src="images/Logo.svg" alt="?">
+        </a>
+        <div class="section">
+          <div class="menu-block">
+            <nav class="menu-nav">
+              <a class="link" href="index.html">Домой</a>
+              <a class="link" href="product.html">Услуги</a>
+              <a class="link" href="#">О нас</a> 
+            </nav>
+            <button class="menu-btn" type="button">
+              <span class="btn-line"></span>
+              <span class="btn-line"></span>
+              <span class="btn-line"></span>
+              <span class="btn-line"></span>
+            </button>
+           </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="about__us">
+        <div class="container">
+            <ul class="myself">
+                <li>
+                    <div class="description">
+                        <div class="page__h1">
+                            <h1>О нас</h1>
+                        </div>
+                        <div class="desc">
+                            Мы находимся по адрессу:<br>
+                            Адрес Водопроводная аллея, <br>
+                            23А, Мытищи,<br>
+                            Московская область
+                        </div>
+                    </div>
+                    <div id="map" class="map"></div>
+                </li>
+            </ul>
+
+        </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <ul class="footer__information">
+          <li class="footer__information-item">
+            <p>Copyright © 2010-2023 Freepik Company S.L. Все<br> 
+              права защищены.</p>
+          </li>
+          <li class="footer__information-item">
+            <p>Мы в соцсетях</p>
+            <a href="#"><img src="images/icons8-youtube1.svg" alt=""></a>
+            <a href="#"><img src="images/icons8-vk1.svg" alt=""></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </footer>
+  <script src="js/script.js"></script>
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU"></script>
+  <script src="js/mapivation.js"></script>
+</body>
+</html>
